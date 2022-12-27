@@ -1,0 +1,69 @@
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important
+}
+
+body{
+  background-color: black;
+}
+
+.button{
+    border: 0;
+    cursor: pointer;
+    appearance: none;
+    background-color: transparent;
+    z-index: 1;
+    padding: 0 3em;
+    padding-top: 2em;
+    max-height: 100px;
+    max-width: 100px;
+    right: 10em;
+  }
+
+img{
+    z-index: 1;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.about {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  min-width: 30rem;
+  max-width: 100rem;
+  font-size: clamp(0.1rem, 4vw + 0.9rem, 2rem);
+  text-align: justify-all;
+  padding: 0 0.5em;
+  padding-top: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(24deg, lightseagreen, lightskyblue);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation-duration: 2s;
+  animation-name: colora;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+
+
+
+
+@keyframes colora {
+  from {
+    filter: contrast(200%) brightness(500%);
+  }
+
+  to {
+    filter: contrast(50%) brightness(150%);
+  }
+}
+
