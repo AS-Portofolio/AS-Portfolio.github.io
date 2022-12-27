@@ -38,7 +38,7 @@ img{
   display: grid;
   place-items: center;
   position: absolute;
-  min-width: 30rem;
+  min-width: 20rem;
   max-width: 100rem;
   font-size: clamp(0.1rem, 4vw + 0.9rem, 2rem);
   text-align: justify-all;
