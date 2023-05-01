@@ -41,7 +41,7 @@ img{
   min-width: 20rem;
   max-width: 100rem;
   font-size: clamp(0.1rem, 3vw + 0.9rem, 2rem);
-  text-align: justify-all;
+  text-align: justify;
   padding: 0 0.5em;
   padding-top: 1em;
   font-family: 'Josefin Sans', sans-serif;
