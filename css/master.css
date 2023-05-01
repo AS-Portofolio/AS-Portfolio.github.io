@@ -324,6 +324,29 @@ img{
 	transition: opacity 2s;
 }
 
+.project__text13{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	background-color: black;
+	position: relative;
+	line-height: normal;
+	width: 100%;
+	height: 50px;
+	color: rgb(107,15,184);
+	padding-top: 1rem;
+}
+
+.project__text13 p{
+	opacity: 0.2;
+	transition: opacity 1s;
+}
+
+.project__text13:hover p{
+	opacity: 1;
+	transition: opacity 2s;
+}
+
 .button{
   	border: 0;
   	cursor: pointer;
@@ -504,6 +527,13 @@ img{
 .videos{
 	background: black;
 	height: 100%;
+}
+
+.video0{
+	content: "";
+	margin: auto 0px;
+	display: block;
+	text-align: center;
 }
 
 .video1{
