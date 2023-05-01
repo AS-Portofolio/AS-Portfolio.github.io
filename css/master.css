@@ -254,7 +254,7 @@ img{
 	transition: opacity 2s;
 }
 
-.project__text12{
+.project__text11{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight:normal;
 	font-style:normal;
@@ -267,12 +267,12 @@ img{
 	padding-top: 1rem;
 }
 
-.project__text12 p{
+.project__text11 p{
 	opacity: 0.2;
 	transition: opacity 1s;
 }
 
-.project__text12:hover p{
+.project__text11:hover p{
 	opacity: 1;
 	transition: opacity 2s;
 }
