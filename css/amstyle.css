@@ -54,6 +54,12 @@ img{
   animation-direction: alternate;
   }
 
+@media (max-device-width: 800px) {
+  .about {
+    text-align: center;
+  }
+}
+
 @keyframes colora {
   from {
     filter: contrast(200%) brightness(500%);
