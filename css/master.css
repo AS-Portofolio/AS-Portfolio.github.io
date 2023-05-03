@@ -347,6 +347,29 @@ img{
 	transition: opacity 2s;
 }
 
+.project__text14{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	background-color: black;
+	position: relative;
+	line-height: normal;
+	width: 100%;
+	height: 50px;
+	color: rgb(255,87,87);
+	padding-top: 1rem;
+}
+
+.project__text14 p{
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+
+.project__text14:hover p{
+	opacity: 1;
+	transition: opacity 2s;
+}
+
 .button{
   	border: 0;
   	cursor: pointer;
@@ -574,6 +597,13 @@ img{
 }
 
 .video6{
+	content: "";
+	margin: auto 0px;
+	display: block;
+	text-align: center;
+}
+
+.video7{
 	content: "";
 	margin: auto 0px;
 	display: block;
