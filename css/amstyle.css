@@ -54,8 +54,11 @@ img{
   animation-direction: alternate;
   }
 
-
-
+@media (max-device-width: 800px) {
+  .about {
+    text-align: center;
+  }
+}
 
 @keyframes colora {
   from {
