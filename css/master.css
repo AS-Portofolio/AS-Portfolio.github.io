@@ -15,6 +15,10 @@ img{
 	max-width: 100%;
 }
 
+.links{
+	width: 100%;
+}
+
 .project {
 	line-height: 0;
 	position: relative;
